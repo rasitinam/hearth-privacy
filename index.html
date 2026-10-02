@@ -23,13 +23,13 @@
   <!-- ============================ TÜRKÇE ============================ -->
   <main data-lang="tr" class="on">
     <h1>Gizlilik Politikası</h1>
-    <p class="meta">Yürürlük: 15 Eylül 2026 · Sürüm 2026-09-15</p>
+    <p class="meta">Yürürlük: 2 Ekim 2026 · Sürüm 2026-10-02</p>
     <p class="lead">Hearth'e yazdıkların, en kişisel şeylerinin arasında. Bu politika hangi verileri topladığımızı, neden topladığımızı, kimlerle paylaştığımızı ve haklarını açıklar.</p>
 
     <ul class="summary">
       <li><b>Sen paylaşmadıkça senin.</b>Ruh hali kayıtların, günlüğün ve sohbetlerin yalnızca senin hesabına görünür.</li>
       <li><b>Verilerin satılmaz.</b>Reklam için kullanılmaz; yalnızca uygulamanın çalışması için gereken sağlayıcılarla paylaşılır.</li>
-      <li><b>Yapay zekâ yanıtları için OpenAI kullanılır.</b>Yanıt ve rapor yazabilmek için ilgili metin OpenAI'a gönderilir.</li>
+      <li><b>Yapay zekâ için ayrıca izin isteriz.</b>Sohbet ve raporları OpenAI yazar. Verilerin OpenAI'a yalnızca uygulamada ayrıca izin verdikten sonra gönderilir; izni istediğin an geri alabilirsin (bkz. bölüm 6).</li>
       <li><b>İstediğin an her şeyi silebilirsin.</b>Ben sekmesinden hesabını ve ona bağlı tüm verileri kalıcı olarak silersin.</li>
     </ul>
 
@@ -61,7 +61,7 @@
     <p>Konum, rehber, reklam kimliği ya da uygulama dışındaki etkinliğini toplamıyoruz.</p>
 
     <h2>3. Sağlık verisi ve açık rıza</h2>
-    <p>Ruh hali, günlük, test yanıtları ve tanılar; KVKK'da "özel nitelikli kişisel veri", GDPR'da "özel kategori veri" sayılır. Bu verileri yalnızca uygulamayı ilk açtığında kaydırarak verdiğin <strong>açık rızaya</strong> dayanarak işleriz (KVKK m.6, GDPR m.9/2-a). Hesap verilerini sözleşmenin ifası, güvenlik ve moderasyon işlemlerini meşru menfaat kapsamında işleriz. Rızanı istediğin zaman hesabını silerek geri alabilirsin.</p>
+    <p>Ruh hali, günlük, test yanıtları ve tanılar; KVKK'da "özel nitelikli kişisel veri", GDPR'da "özel kategori veri" sayılır. Bu verileri yalnızca uygulamayı ilk açtığında kaydırarak verdiğin <strong>açık rızaya</strong> dayanarak işleriz (KVKK m.6, GDPR m.9/2-a). Hesap verilerini sözleşmenin ifası, güvenlik ve moderasyon işlemlerini meşru menfaat kapsamında işleriz. Rızanı istediğin zaman hesabını silerek geri alabilirsin. Verilerinin yapay zekâ servisine (OpenAI) gönderilmesi için ayrıca, ayrı bir izin isteriz (bkz. bölüm 6).</p>
 
     <h2>4. Verilerini ne için kullanıyoruz</h2>
     <ul>
@@ -78,44 +78,62 @@
     <div class="table">
       <table>
         <tr><th>Sağlayıcı</th><th>Amaç</th><th>Paylaşılan veri</th></tr>
-        <tr><td>OpenAI, L.L.C. (ABD)</td><td>Sohbet yanıtları, raporlar, analizler, çeviri</td><td>İlgili mesaj, günlük veya kayıt metni</td></tr>
+        <tr><td>OpenAI, L.L.C. (ABD)</td><td>Sohbet yanıtları, raporlar, analizler, okumalar, çeviri, sesli okuma (yalnızca izin verdiysen)</td><td>Bölüm 6'da sayılan veriler</td></tr>
         <tr><td>Google Firebase Cloud Messaging (ABD)</td><td>Bildirim iletimi</td><td>Cihaz bildirim jetonu</td></tr>
         <tr><td>Apple Inc. (ABD)</td><td>Abonelik ödemesi ve doğrulaması</td><td>Satın alma makbuzu</td></tr>
         <tr><td>ngrok, Inc. (ABD)</td><td>Sunucuya şifreli (HTTPS) bağlantı tüneli</td><td>Uygulama ile sunucu arasındaki şifreli trafik</td></tr>
       </table>
     </div>
-    <p>OpenAI'ın API üzerinden gönderilen verileri model eğitiminde kullanmadığını taahhüt ettiği koşullar altında çalışıyoruz. Yasal bir zorunluluk olmadıkça verilerin başka hiçbir üçüncü tarafla paylaşılmaz.</p>
+    <p>Yasal bir zorunluluk olmadıkça verilerin başka hiçbir üçüncü tarafla paylaşılmaz.</p>
     <p>Topluluk: paylaştığın hikayeler incelemeden sonra diğer kullanıcılara görünür. Özel mesajların yalnızca konuştuğun kişiye görünür.</p>
 
-    <h2>6. Yurt dışına aktarım</h2>
+    <h2>6. Yapay zekâ servisi (OpenAI) ile paylaşım</h2>
+    <p>Hearth'teki sohbet yanıtları, günlük raporlar, haftalık özetler, yaşam analizi, "durumun" okumaları, keşifler, uzun süreli hafıza, çeviriler ve sesli okuma, <strong>OpenAI, L.L.C.</strong> (ABD) şirketinin yapay zekâ modelleriyle, OpenAI API'si üzerinden üretilir.</p>
+    <h3>İzin</h3>
+    <p>Uygulamaya giriş yaptıktan sonra, herhangi bir veri gönderilmeden önce, neyin kime gönderileceğini gösteren ayrı bir ekranda izin isteriz. İzin vermezsen OpenAI'a hiçbir verin gönderilmez; yapay zekâ özellikleri kapalı kalır, ruh hali takibi, günlük ve topluluk özellikleri çalışmaya devam eder. Bu izin sunucuda da denetlenir: izin vermemiş bir hesap için yapay zekâ isteği reddedilir. İzni istediğin an <strong>Ben › OpenAI ile paylaşım</strong> bölümünden geri alabilir ya da yeniden verebilirsin.</p>
+    <h3>Gönderilen veriler</h3>
+    <ul>
+      <li>Sohbet mesajların ve o ana kadarki konuşma.</li>
+      <li>Ruh hali kayıtların, notları ve günlük yazıların.</li>
+      <li>Değerlendirme testi cevapların ve skorların (PHQ-9, GAD-7), eklediğin tanılar, sohbet tercihlerin ve Hearth'in senin hakkında tuttuğu kısa hafıza notları.</li>
+      <li>Görünen adın, yaşın (doğum yılından hesaplanır) ve dil tercihin.</li>
+      <li>Herkese açık paylaştığın hikâyeler, başka dildeki okurlar için çevrilirken.</li>
+    </ul>
+    <p>E-posta adresin, şifren, profil fotoğrafın, özel mesajların ve ödeme bilgilerin OpenAI'a gönderilmez.</p>
+    <h3>Nasıl toplanır, ne için kullanılır</h3>
+    <p>Bu verileri sen uygulamaya yazarak ya da seçerek girersin. Yalnızca istediğin yanıtı, raporu, analizi, okumayı, çeviriyi veya sesi üretmek için, gerektiği anda ve gereken kısmıyla gönderilir. Reklam, profilleme veya satış için kullanılmaz.</p>
+    <h3>OpenAI'ın sağladığı koruma</h3>
+    <p>OpenAI'ı API iş koşulları ve veri işleme eki (DPA) kapsamında kullanıyoruz. Bu koşullara göre OpenAI, API üzerinden gönderilen verileri modellerini eğitmek için kullanmaz, yalnızca hizmeti sunmak için işler, kötüye kullanım denetimi için en fazla 30 gün saklayıp siler ve verileri bu politikadakiyle aynı ya da eşdeğer düzeyde korumayı taahhüt eder.</p>
+
+    <h2>7. Yurt dışına aktarım</h2>
     <p>Yukarıdaki sağlayıcılar ABD'dedir. Açık rızan, bu aktarım için de alınan rızayı kapsar (KVKK m.9). Sağlayıcılarla veriyi koruyan sözleşmesel güvenceler altında çalışırız.</p>
 
-    <h2>7. Saklama ve güvenlik</h2>
+    <h2>8. Saklama ve güvenlik</h2>
     <p>Verilerin, uygulamanın kendi sunucusundaki veritabanında saklanır. Uygulama ile sunucu arasındaki tüm trafik şifrelidir. Şifreler hash'lenir, her istek oturum belirteciyle doğrulanır.</p>
     <p>Hesabın açık olduğu sürece verilerini saklarız. Ben sekmesindeki <strong>Hesabı sil</strong> ile hesabın ve ona bağlı tüm kayıtlar kalıcı olarak silinir. Uygulamaya erişemiyorsan e-postayla yazman yeterli; talebini en geç 30 gün içinde yerine getiririz.</p>
 
-    <h2>8. Hakların</h2>
+    <h2>9. Hakların</h2>
     <p>KVKK m.11 ve uygulandığı ölçüde GDPR kapsamında verilerinin işlenip işlenmediğini öğrenme, erişme, düzeltme, silme, işlemeye itiraz etme, aktarılan üçüncü tarafları öğrenme ve veri taşınabilirliği hakların vardır. Taleplerini <a href="mailto:inamrasit@gmail.com">inamrasit@gmail.com</a> adresine gönderebilirsin; en geç 30 gün içinde yanıtlarız. Kişisel Verileri Koruma Kurulu'na şikâyette bulunma hakkın saklıdır.</p>
 
-    <h2>9. Yaş sınırı</h2>
+    <h2>10. Yaş sınırı</h2>
     <p>Hearth 13 yaşından küçükler için değildir ve bu yaş grubundan bilerek veri toplamaz. Böyle bir hesap fark edersek sileriz.</p>
 
     <div class="note"><b>Hearth bir sağlık uzmanı değildir</b>Tanı koymaz, tedavi etmez. Acil bir durumdaysan 112'yi ara ya da bir uzmana başvur.</div>
 
-    <h2>10. Değişiklikler</h2>
+    <h2>11. Değişiklikler</h2>
     <p>Bu politikayı güncelleyebiliriz. Önemli bir değişiklikte güncel özeti uygulamada yeniden gösterir, onayını tekrar isteriz. Tarih ve sürüm her zaman bu sayfanın başında yazar.</p>
   </main>
 
   <!-- ============================ ENGLISH ============================ -->
   <main data-lang="en">
     <h1>Privacy Policy</h1>
-    <p class="meta">Effective September 15, 2026 · Version 2026-09-15</p>
+    <p class="meta">Effective October 2, 2026 · Version 2026-10-02</p>
     <p class="lead">What you write in Hearth is among the most personal things you'll write anywhere. This policy explains what we collect, why, who we share it with, and your rights.</p>
 
     <ul class="summary">
       <li><b>Yours unless you share it.</b>Your moods, journal and chats are visible only to your account.</li>
       <li><b>Your data is never sold.</b>It isn't used for advertising, and it's shared only with the providers the app needs to work.</li>
-      <li><b>AI replies use OpenAI.</b>To write replies and reports, the relevant text is sent to OpenAI.</li>
+      <li><b>We ask separately before using AI.</b>Chat and reports are written by OpenAI. Your data goes to OpenAI only after you allow it in the app, and you can withdraw that at any time (see section 6).</li>
       <li><b>Delete everything, any time.</b>From the Me tab you can permanently delete your account and all of its data.</li>
     </ul>
 
@@ -147,7 +165,7 @@
     <p>We don't collect your location, contacts, advertising ID, or activity outside the app.</p>
 
     <h2>3. Health data and explicit consent</h2>
-    <p>Moods, journal entries, assessment answers and diagnoses are special-category (health) data under the GDPR and Türkiye's KVKK. We process them only on the basis of the <strong>explicit consent</strong> you give by sliding to accept when you first open the app (GDPR Art. 9(2)(a), KVKK Art. 6). Account data is processed to provide the service, and safety and moderation under legitimate interest. You can withdraw consent at any time by deleting your account.</p>
+    <p>Moods, journal entries, assessment answers and diagnoses are special-category (health) data under the GDPR and Türkiye's KVKK. We process them only on the basis of the <strong>explicit consent</strong> you give by sliding to accept when you first open the app (GDPR Art. 9(2)(a), KVKK Art. 6). Account data is processed to provide the service, and safety and moderation under legitimate interest. You can withdraw consent at any time by deleting your account. Sending your data to the AI service (OpenAI) needs a further, separate permission (see section 6).</p>
 
     <h2>4. How we use it</h2>
     <ul>
@@ -164,31 +182,49 @@
     <div class="table">
       <table>
         <tr><th>Provider</th><th>Purpose</th><th>Data shared</th></tr>
-        <tr><td>OpenAI, L.L.C. (US)</td><td>Chat replies, reports, analyses, translation</td><td>The relevant message, journal or entry text</td></tr>
+        <tr><td>OpenAI, L.L.C. (US)</td><td>Chat replies, reports, analyses, readings, translation, read-aloud (only if you allowed it)</td><td>The data listed in section 6</td></tr>
         <tr><td>Google Firebase Cloud Messaging (US)</td><td>Delivering notifications</td><td>Device notification token</td></tr>
         <tr><td>Apple Inc. (US)</td><td>Subscription payment and verification</td><td>Purchase receipt</td></tr>
         <tr><td>ngrok, Inc. (US)</td><td>Encrypted (HTTPS) tunnel to our server</td><td>Encrypted traffic between the app and the server</td></tr>
       </table>
     </div>
-    <p>We use OpenAI under terms in which OpenAI commits not to train its models on data sent through its API. Your data isn't shared with anyone else unless the law requires it.</p>
+    <p>Your data isn't shared with anyone else unless the law requires it.</p>
     <p>Community: stories you post become visible to other members after review. Private messages are visible only to the person you're talking with.</p>
 
-    <h2>6. International transfers</h2>
+    <h2>6. Sharing with the AI service (OpenAI)</h2>
+    <p>Hearth's chat replies, daily reports, weekly recaps, life analysis, "how you are" readings, discoveries, long-term memory, translations and read-aloud are produced by AI models from <strong>OpenAI, L.L.C.</strong> (US), through the OpenAI API.</p>
+    <h3>Permission</h3>
+    <p>After you sign in, and before anything is sent, we ask for your permission on a separate screen that shows what is sent and to whom. If you don't allow it, none of your data is sent to OpenAI; the AI features stay off while mood tracking, the journal and the community keep working. The server enforces this too: an AI request for an account without permission is refused. You can withdraw or give permission at any time under <strong>Me › Sharing with OpenAI</strong>.</p>
+    <h3>What is sent</h3>
+    <ul>
+      <li>Your chat messages and the conversation so far.</li>
+      <li>Your mood check-ins, their notes and your journal entries.</li>
+      <li>Your assessment answers and scores (PHQ-9, GAD-7), the conditions you added, your chat preferences, and the short memory notes Hearth keeps about you.</li>
+      <li>Your display name, your age (worked out from your birth year) and your language.</li>
+      <li>Stories you share publicly, when they are translated for readers in other languages.</li>
+    </ul>
+    <p>Your email address, password, profile photo, private messages and payment details are never sent to OpenAI.</p>
+    <h3>How it's collected and what it's used for</h3>
+    <p>You enter this data yourself, by writing or choosing it in the app. It is sent only when needed, and only the part needed, to produce the reply, report, analysis, reading, translation or audio you asked for. It is never used for advertising, profiling or sale.</p>
+    <h3>The protection OpenAI provides</h3>
+    <p>We use OpenAI under its API business terms and data processing addendum (DPA). Under these terms OpenAI does not train its models on data sent through the API, processes it only to provide the service, keeps it for at most 30 days for abuse monitoring before deleting it, and commits to protect it to the same or an equivalent standard as this policy.</p>
+
+    <h2>7. International transfers</h2>
     <p>The providers above are in the United States. Your explicit consent covers this transfer (KVKK Art. 9), and we rely on contractual safeguards with each provider.</p>
 
-    <h2>7. Storage, security and retention</h2>
+    <h2>8. Storage, security and retention</h2>
     <p>Your data is stored in a database on the app's own server. All traffic between the app and the server is encrypted, passwords are hashed, and every request is checked against your session token.</p>
     <p>We keep your data while your account exists. <strong>Delete Account</strong> in the Me tab permanently deletes your account and everything tied to it. If you can't access the app, email us and we'll complete the request within 30 days.</p>
 
-    <h2>8. Your rights</h2>
+    <h2>9. Your rights</h2>
     <p>Under the GDPR where it applies and KVKK Art. 11, you can ask whether we process your data, access it, correct it, delete it, object to processing, learn which third parties receive it, and receive a portable copy. Send requests to <a href="mailto:inamrasit@gmail.com">inamrasit@gmail.com</a>; we answer within 30 days. You may also complain to your data protection authority.</p>
 
-    <h2>9. Age</h2>
+    <h2>10. Age</h2>
     <p>Hearth isn't intended for anyone under 13, and we don't knowingly collect their data. If we learn of such an account, we delete it.</p>
 
     <div class="note"><b>Hearth is not a clinician</b>It doesn't diagnose or treat. In a crisis, call your local emergency number (112 in Türkiye) or reach a professional.</div>
 
-    <h2>10. Changes</h2>
+    <h2>11. Changes</h2>
     <p>We may update this policy. For a material change, the app shows the updated summary again and asks for your consent again. The date and version are always at the top of this page.</p>
   </main>
 
